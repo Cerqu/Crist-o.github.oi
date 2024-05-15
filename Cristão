@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evangelizando com Amor</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            text-align: center;
+            padding: 1rem 0;
+            background: #0056b3;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.2rem;
+        }
+        .container {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .impacto {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .impacto h2 {
+            font-size: 2rem;
+            color: #007BFF;
+        }
+        .impacto p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+        .fotos {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .fotos img {
+            width: calc(33.333% - 2rem);
+            height: auto;
+            border-radius: 10px;
+        }
+        .contato {
+            text-align: center;
+            margin-top: 2rem;
+        }
+        .contato h2 {
+            font-size: 2rem;
+            color: #007BFF;
+        }
+        .contato form {
+            max-width: 600px;
+            margin: auto;
+        }
+        .contato input, .contato textarea {
+            width: 100%;
+            padding: 1rem;
+            margin: 0.5rem 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .contato button {
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 5px;
+            background: #007BFF;
+            color: white;
+            font-size: 1rem;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #0056b3;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Evangelizando com Amor</h1>
+    </header>
+    <nav>
+        <a href="#impacto">Impacto</a>
+        <a href="#fotos">Fotos</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="impacto" class="impacto">
+            <h2>Impactando Vidas com a Palavra de Deus</h2>
+            <p>Nosso objetivo é compartilhar o amor de Cristo e suas maravilhas através de palavras e ações. Acreditamos no poder transformador da fé e queremos inspirar você a viver uma vida plena e abençoada.</p>
+        </section>
+        <section id="fotos" class="fotos">
+            <h2>Momentos de Fé</h2>
+            <img src="foto1.jpg" alt="Momento de oração">
+            <img src="foto2.jpg" alt="Estudo bíblico">
+            <img src="foto3.jpg" alt="Louvor e adoração">
+        </section>
+        <section id="contato" class="contato">
+            <h2>Entre em Contato</h2>
+            <form action="mailto:Cerqueiramarioreis@gmail.com.com" method="post" enctype="text/plain">
+                <input type="text" name="name" placeholder="Seu Nome" required>
+                <input type="email" name="email" placeholder="Seu Email" required>
+                <textarea name="message" rows="4" placeholder="Sua Mensagem" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Evangelizando com Amor. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
